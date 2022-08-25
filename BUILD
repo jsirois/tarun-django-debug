@@ -5,7 +5,7 @@ def django_util(name, **kwargs):
     pex_binary(
         name=name,
         dependencies=[
-            ":reqs#django",
+            ":reqs#Django",
         ],
         **kwargs
     )
