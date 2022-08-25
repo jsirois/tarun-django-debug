@@ -11,3 +11,7 @@ enabled = false
 [python]
 interpreter_constraints = ["CPython==3.10.*"]
 
+[source]
+root_patterns = [
+  "/appsflyer",
+]
